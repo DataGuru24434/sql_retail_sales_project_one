@@ -113,14 +113,14 @@ FROM retail_sales
 WHERE category='Beauty';
 ```
 
-5. **I wrote the SQL query to determine High-Value Transactions**:
+5. **High-Value Transactions**:
 ```sql
 SELECT * FROM  retail_sales
 WHERE total_sale >1000
 ;
 ```
 
-6. **I wrote this SQL query to determine the Transaction Count by Gender and Category**:
+6. **Transaction Count by Gender and Category**:
 ```sql
 SELECT
       category,
@@ -134,7 +134,7 @@ ORDER BY category;
 
 ```
 
-7. **I wrote the SQL query to find out the Monthly Average Sales + Best-Selling Month**:
+7. **Monthly Average Sales + Best-Selling Month**:
 ```sql
 WITH monthly_avg AS
  (
